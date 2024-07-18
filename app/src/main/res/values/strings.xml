@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CarWashing</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="appointment_image">Appointment Image</string>
+</resources>

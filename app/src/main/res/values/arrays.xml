@@ -1,0 +1,7 @@
+<resources>
+    <array name="service_options">
+        <item>İç Yıkama</item>
+        <item>Dış Yıkama</item>
+        <item>İç - Dış Yıkama</item>
+    </array>
+</resources>

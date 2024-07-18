@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "61448455615",
+    "project_id": "washwonders-3aa4b",
+    "storage_bucket": "washwonders-3aa4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61448455615:android:c8fe9e5673b9eb4a168d0a",
+        "android_client_info": {
+          "package_name": "com.example.carwashing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuYF5ZiHw55hDfHfMaArMoZh6B_Oonu9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

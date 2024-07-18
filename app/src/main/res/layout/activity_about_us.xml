@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="16dp"
+        android:elevation="4dp"
+
+        android:layout_marginTop="32dp"
+        android:clipToOutline="true"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hakkımızda"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biz CarWashing Şirketi olarak müşterilerimize en iyi hizmeti sunmak için çalışıyoruz. Misyonumuz, kaliteli hizmet sunarak müşteri memnuniyetini en üst düzeye çıkarmaktır."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vizyonumuz, sektörde lider konuma gelmek ve yenilikçi çözümler sunarak müşteri ihtiyaçlarını en iyi şekilde karşılamaktır."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Diğer içerikler -->
+
+    </LinearLayout>
+</ScrollView>

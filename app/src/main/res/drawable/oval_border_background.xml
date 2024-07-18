@@ -1,0 +1,8 @@
+<!-- oval_border_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="20dp" /> <!-- Oval şekil için büyük bir yarıçap kullanın -->
+    <stroke
+        android:width="2dp"
+        android:color="#000000" /> <!-- Kenarlık kalınlığı ve rengi -->
+</shape>

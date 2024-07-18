@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CarWashing"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+
+
+        android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".ProfileInfoActivity" />
+        <activity android:name=".KurumsalCardActivity" />
+        <activity android:name=".RandevuDetailsActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".KurumsalLogin" />
+        <activity android:name=".KurumsalRegister" />
+        <activity android:name=".KurumsalHome" />
+        <activity android:name=".KurumsalProfileInfo" />
+        <activity android:name=".AppointmentDetailActivity" />
+        <activity android:name=".SecurityActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".PrivacyPolicyActivity" />
+        <activity android:name=".GecmisRandevuDetailsActivity" />
+        <activity android:name=".KurumsalGecmisRandevuDetails" />
+
+    </application>
+
+</manifest>
